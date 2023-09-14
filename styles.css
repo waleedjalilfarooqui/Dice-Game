@@ -1,0 +1,92 @@
+/* tagselectors */
+
+
+body{
+
+   background-color: rgb(183, 250, 239) !important;
+   overflow: hidden;
+}
+h1{
+    
+    margin-left: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 0 0 0;
+    display: inline-block;
+    font-family: 'Lobster', cursive;  
+}
+h2{
+    font-family: 'Lobster', cursive;  
+
+}
+
+
+
+/* classSelector */
+.dice-container-1{
+position: relative;
+left: 10px;
+top: 5px;
+}
+.dice-container-2{
+
+   position: relative;
+   left: 50px;
+   bottom: 97px;
+
+  
+}
+.dice{
+    position: absolute;
+    visibility: hidden;
+    margin-left: 55%;
+    top: 100px;
+}
+
+.dice2{
+    position: absolute;
+    visibility: hidden;
+    margin-left: 23%;
+    top: 100px;
+}
+.main{
+    position: relative;
+    
+  
+
+}
+
+.button-start{
+
+    position: relative;
+    top: 500px;
+    left: 46%;
+
+}
+
+.player1{
+    display: inline-block;
+    position: relative;
+    left: 500px;
+    top: 80px;
+}
+.player2{
+    display: inline-block;
+    position: relative;
+    left: 830px;
+    top: 80px;
+}
+
+.winner{
+
+    display: inline-block;
+    position: absolute;
+    left: 700px;
+    top: 95%;
+    visibility: hidden;
+    font-family: 'Lobster', cursive;  
+    
+}
+.draw{
+
+    left:735px;
+}
